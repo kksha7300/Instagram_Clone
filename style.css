@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    background-color: black;
+    color: white;
+    margin: 0;
+    
+}
+
+
+
+
+
+.instragram{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.left_bar{
+    width: 17%;
+    height: 100vh;
+    border-right: 1px solid #504949;
+    /* background-color: brown; */
+}
+#logo{
+    /* font-family: "Poppins", sans-serif; */
+    font-size: 30px;
+    background-color: brown;
+}
+.left_bar .items{
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    align-items: center;
+    /* display: flex; */
+    padding: 12px;
+    /* font-size: 16px; */
+    margin: 6px;
+    font-size: 16px;
+}
+.left_bar .items .material-symbols-outlined{
+    margin-right: 12px;
+    font-size: 35px;
+}
+.post{
+    width: 55%;
+    height: 100vh;
+    /* background-color: yellowgreen; */
+}
+.post .story .items{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px;
+font-size: 12;
+font-weight: 200;
+}
+.post .story .item .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.post .story .item .profile .img{
+    border-radius: 50%;
+    padding: 2px;
+    background-image: conic-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #feda75);
+    display: inline-block;
+}
+.post .story .item .profile .img img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    padding: 3px;
+}
+.suggestion{
+    width: 25%;
+    height: 100vh;
+    background-color: burlywood;
+}
